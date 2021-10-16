@@ -1,6 +1,7 @@
-body{
+@media only screen and (max-width: 576px){
+/**body{
   background-color: #000000;
-}
+}**/
 
 nav{
   display: inline-block;
@@ -41,39 +42,50 @@ tr{
   font-size: 17px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #000000;
   margin-left:4%;
+}
+
+table{
+  width: 100% !important;
 }
 
 .column1{
   width: 23%;
+  background-color: #009688;
 }
 
 .column2{
   width: 4%;
+  background-color: #8bc34a;
 }
 
 .column3{
   width: 65%;
+  background-color: #9c27b0;
 }
 
 .column4{
   width: 25%;
-  text-align: center;
+  text-align: left;
   margin-left: 2%;
+  background-color: #673ab7;
 }
 
 .column5{
   width: 35%;
-  text-align: center;
+  text-align: left;
   margin-left: 2%;
+  background-color: #03a9f4;
 }
+
 
 .column6{
   width: 32%;
-  text-align: center;
+  text-align: left;
   margin-left: 2%;
   margin-right: 2%;
+  background-color: #00bcd4;
 }
 
 .ex{
@@ -83,6 +95,7 @@ tr{
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 40px;
-  color: #FFFFFF;
+  color: #000000;
   margin-left:4%;
+}
 }
