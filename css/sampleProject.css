@@ -14,7 +14,7 @@ nav{
   border-block: none;
   height: 40px;
   padding: 4px;
-  margin: none;
+  margin: auto;
 }
 
 .right{
@@ -23,12 +23,12 @@ nav{
   border-block: none;
   height: 40px;
   padding: 4px;
-  margin: none;
+  margin: auto;
 }
 
 .center{
   display: block;
-  margin-left: 150px;
+  margin-left:150px;
   margin-top: 10px;
   width:140px;
   height=140px;
@@ -96,5 +96,4 @@ table{
   margin-bottom: 40px;
   color: #000000;
   margin-left:4%;
-}
 }
