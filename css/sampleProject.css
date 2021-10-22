@@ -1,100 +1,112 @@
 @media only screen and (max-width: 576px){
+
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color: #000000;
 }
 
-nav{
-  display: inline-block;
-  margin-top: 10px;
+.uppercontainer{
+	display: block;
+	position: fixed;	
+	width: 100%;
+	top: 0;
+        z-index: 5;
 }
 
-.left{
+.maincontainer{
+        position: absolute;
+        top: 75px;
+        width: 100%;
+        z-index: -10;
+        overflow: scroll !important;
+         
+        bottom: 20px;
+}
+
+.backbtn{
+	display: block;
+	position: relative;
+	background-color: #2dcac2;
+	padding: 10px 15px 10px 12px;
+	font-weight: bold;
+	margin: 3%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	cursor: pointer;
+        
+}
+
+/*.right{
   font-weight:bold;
   background: #00ACC1;
   border-block: none;
   height: 40px;
   padding: 4px;
   margin: auto;
-}
-
-.right{
-  font-weight:bold;
-  background: #00ACC1;
-  border-block: none;
-  height: 40px;
-  padding: 4px;
-  margin: auto;
-}
+}*/
 
 .center{
   display: block;
-  margin-left:150px;
-  margin-top: 10px;
-  width:140px;
-  height=140px;
-}
-  
-tr{
-  width: 10px;
-  text-align: left;
-  border-spacing: 5px;
-  font-size: 17px;
-  margin-top: 20px;
+  position: relative;
+  left: calc(50% - 70px);
   margin-bottom: 20px;
-  color: #000000;
-  margin-left:4%;
+  width:140px;
+  height: 140px;
+}
+
+.uppertable{
+  width: 92%;
+  margin-left: 4%;
+  font-size: 17px;
+  text-align: left;
+  color: white;
+}
+
+.lowertable{
+  width: 96%;
+  margin-left: 2%;
+  font-size: 16px;
+  text-align: left;
+  color: white;
 }
 
 table{
-  width: 100% !important;
+  border-collapse: separate;
+  border-spacing: 3px 8px;
 }
 
 .column1{
   width: 23%;
-  background-color: #009688;
 }
 
 .column2{
   width: 4%;
-  background-color: #8bc34a;
+  
+  text-align: center;
 }
 
 .column3{
   width: 65%;
-  background-color: #9c27b0;
+ 
 }
 
 .column4{
-  width: 25%;
-  text-align: left;
-  margin-left: 2%;
-  background-color: #673ab7;
+  width: 25%; 
+  
 }
 
 .column5{
   width: 35%;
-  text-align: left;
-  margin-left: 2%;
-  background-color: #03a9f4;
+  
 }
-
 
 .column6{
   width: 32%;
-  text-align: left;
-  margin-left: 2%;
-  margin-right: 2%;
-  background-color: #00bcd4;
-}
-
-.ex{
-  width: 10px;
-  text-align: left;
-  border-spacing: 5px;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  color: #000000;
-  margin-left:4%;
+ 
 }
 }
