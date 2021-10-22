@@ -1,9 +1,5 @@
 @media only screen and (max-width: 576px){
 
-*{
-  box-sizing: border-box;
-}
-
 body{
   background-color: #000000;
 }
